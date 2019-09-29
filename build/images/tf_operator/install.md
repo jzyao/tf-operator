@@ -28,3 +28,5 @@ ks apply default
 ```
 
 ## 修改 tf-operator 镜像
+docker pull jzdoris/tf-operator 
+
