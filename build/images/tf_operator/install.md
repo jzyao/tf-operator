@@ -30,3 +30,10 @@ ks apply default
 ## 修改 tf-operator 镜像
 docker pull jzdoris/tf-operator 
 
+## 跑例子
+```kubectl apply -f job-gpu.yaml```
+https://github.com/jzyao/tf-benchmarks-image/blob/master/job-gpu.yaml
+
+用例 1. 1 ps  1 worker  1 GPU node
+用例 2. 2 ps  2 worker  2 GPU node
+用例 3. 2 ps  4 worker  2 GPU node
